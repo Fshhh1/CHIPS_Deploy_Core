@@ -1,0 +1,1 @@
+// Placeholder .chipx protocol file for demo purposes
