@@ -1,0 +1,15 @@
+<h1>CHIPS Admin - Token Gate</h1>
+<p>Please enter your Genesis Token:</p>
+<input type='text' id='tokenInput'>
+<button onclick='checkToken()'>Verify</button>
+<script>
+function checkToken() {
+  var token = document.getElementById('tokenInput').value;
+  if (token === 'GENESIS-CHIPS-TOKEN-001-REDMELON') {
+    sessionStorage.setItem('chipsToken', token);
+    window.location.href = 'admin_dashboard.html';
+  } else {
+    alert('Invalid Token.');
+  }
+}
+</script>
