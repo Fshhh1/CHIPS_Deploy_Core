@@ -1,8 +1,7 @@
-
 export default function AdminDashboard() {
   return (
     <main>
-      <h1>Admin Dashboard</h1>
+      <h1>Federation Echo Dashboard</h1>
       <p>Federation Echo Status: All Nodes Online (Simulated)</p>
       <p>Invite Tokens Issued: 5</p>
       <p>Rogue Detection: None Detected.</p>
