@@ -1,11 +1,7 @@
-# CHIPS Browser — Android Studio Project
+# CHIPS Admin Enhancements
+This package contains the CHIPS Admin interface with Token Gate, Federation Echo, and Marketplace/Developer Portal placeholders.
 
-## How to Build:
-1. Open Android Studio and select "Open an Existing Project".
-2. Navigate to this folder and select the project.
-3. Click "Build" → "Build APK(s)".
-4. Find your APK in app/build/outputs/apk/debug/.
-
-## Notes:
-- This is a demo build with placeholder `.chipx` file.
-- Implement interpreter logic in MainActivity.java as needed.
+## Installation
+1. Upload this package to your CHIPS_Deploy_Core GitHub repo.
+2. Commit and push the changes.
+3. Vercel will detect the changes and deploy automatically.
