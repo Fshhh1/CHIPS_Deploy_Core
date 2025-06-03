@@ -1,18 +1,20 @@
-# CHIPS Admin Interactive (Next.js Frontend)
 
-This frontend is deployed from the `/frontend` directory on Vercel.
+# CHIPS Admin Dynamic
 
-## Pages
+This package includes fully interactive Next.js pages for the CHIPS Admin Dashboard.
 
-- `/token_gate` — Token Gate login page
-- `/admin_dashboard` — Federation Echo dashboard
-- `/chipx_manager` — .chipx Manager
-- `/marketplace` — Marketplace placeholder
-- `/developers` — Developer Portal placeholder
+## Features
+- Token Gate login
+- Federation Echo status
+- .chipx Manager
+- Marketplace
+- Developer Portal
 
-## Local Development
+## Installation
+1. Upload the package to your CHIPS_Deploy_Core GitHub repo.
+2. Commit and push the changes.
+3. Vercel will deploy the interactive site automatically.
 
-```bash
-cd frontend
-npm install
-npm run dev
+## Notes
+- Dynamic Next.js mode enabled (no `next export`).
+- Full interactivity and routing support.
